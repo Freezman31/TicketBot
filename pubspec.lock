@@ -60,24 +60,12 @@ packages:
   nyxx:
     dependency: "direct main"
     description:
-      name: nyxx
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0-rc.10"
-  nyxx_commander:
-    dependency: "direct main"
-    description:
-      name: nyxx_commander
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0-rc.10"
-  nyxx_extensions:
-    dependency: "direct main"
-    description:
-      name: nyxx_extensions
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0-rc.7"
+      path: nyxx
+      ref: "fix/channel-edit-redesign"
+      resolved-ref: c43e297d8d18c71dfa2fea4abf424e86fcdf5915
+      url: "https://github.com/l7ssha/nyxx.git"
+    source: git
+    version: "2.0.0-rc.9"
   nyxx_interactions:
     dependency: "direct main"
     description:
@@ -85,13 +73,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0-rc.13"
-  nyxx_lavalink:
-    dependency: "direct main"
-    description:
-      name: nyxx_lavalink
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0-rc.1"
   path:
     dependency: transitive
     description:

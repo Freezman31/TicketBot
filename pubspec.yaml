@@ -15,9 +15,13 @@ dev_dependencies:
 dependencies:
   args: ^2.1.1
   http: ^0.13.3
-  nyxx: ^2.0.0-rc.7
-  nyxx_commander: ^2.0.0-rc.10
-  nyxx_extensions: ^2.0.0-rc.5
-  nyxx_interactions: ^2.0.0-rc.10
-  nyxx_lavalink: ^2.0.0-rc.1
+  nyxx: 2.0.0-rc.9
+  nyxx_interactions: 2.0.0-rc.13
+
+dependency_overrides:
+  nyxx:
+    git:
+      url: https://github.com/l7ssha/nyxx.git
+      path: nyxx
+      ref: fix/channel-edit-redesign
 
